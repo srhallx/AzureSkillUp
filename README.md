@@ -1,0 +1,2 @@
+# AzureSkillUp
+Quick Azure Labs

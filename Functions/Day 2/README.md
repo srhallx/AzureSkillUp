@@ -25,7 +25,7 @@ public static class ReadBlob
             var result = await visionClient.AnalyzeImageInStreamAsync(myBlob, visualFeatures, null, "en", cts.Token);
 
             log.LogInformation($"Name:{name} \n Size: {myBlob.Length} Bytes");
-            log.LogInformation($"Image Format: {result.Metadata.Format}, Width: {result.Metadata.Width}, Height: {result.Metadata.Height});
+            log.LogInformation($"Image Format: {result.Metadata.Format}, Width: {result.Metadata.Width}, Height: {result.Metadata.Height}");
       };
    }
 }

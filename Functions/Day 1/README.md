@@ -19,7 +19,9 @@ If you had to consult documentation or use `--help`, delete function and repeat.
 ### Spoilers
 1. `az group create --name AzureChallenges --location CentralUS`
 2. `az storage account create --resource-group AzureChallenges --name challengestore`
+
 `az storage account show-connection-string --name challengestore`
+
 `az storage container create --connection-string "CONNECTIONSTRING" --name challengefiles`
 3. `...Run([BlobTrigger("challengefiles/{name}.txt",...`
 4. Use `log.LogInformation()`

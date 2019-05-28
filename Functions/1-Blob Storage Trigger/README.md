@@ -1,4 +1,4 @@
-# Functions Day 1
+# 1 - Blob Storage Trigger
 ## Summary
 Use functions with a blob storage trigger to process *.txt files
 ### Prerequisites:

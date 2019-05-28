@@ -1,4 +1,4 @@
-# Functions Day 2
+# 2 - Image Processing with Cognitive Services
 ## Summary
 Process image files through Cognitive Services with Azure Functions and Blob Storage
 

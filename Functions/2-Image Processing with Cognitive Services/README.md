@@ -37,10 +37,10 @@ public static class ReadBlob
 If you had to consult documentation or use `--help`, delete function and repeat.
 
 ### Spoilers
-1. `az storage account create --resource-group AzureChallenges --name challengestore`
-`az storage account show-connection-string --name challengestore`
-`az storage container create --connection-string "CONNECTIONSTRING" --name challengefiles`
-2. `az cognitiveservices account create --resource-group AzureChallenges --name ACVisionService --kind ComputerVision --location eastus --sku S1`
-`az cognitiveservices account keys list --name ACVisionService --resource-group AzureChallenges`
+1. `az storage account create --resource-group AzureChallenges --name challengestore`  
+`az storage account show-connection-string --name challengestore`  
+`az storage container create --connection-string "CONNECTIONSTRING" --name challengefiles`  
+2. `az cognitiveservices account create --resource-group AzureChallenges --name ACVisionService --kind ComputerVision --location eastus --sku S1`  
+`az cognitiveservices account keys list --name ACVisionService --resource-group AzureChallenges`  
 3. `...Run([BlobTrigger("challengefiles/{name}.jpg",...`
 4. `dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision --version 4.0.0`

@@ -1,11 +1,11 @@
 # AzureSkillUp
 Quick Azure Labs
-[Functions](./Functions/README.md)
+[Functions](./Functions)
 
-[Azure AD](./Azure%20AD/README.md)
+[Azure AD](./Azure%20AD)
 
-[Bot Service](./Bot%20Service/README.md)
+[Bot Service](./Bot%20Service)
 
-[App Service](./App%20Service/README.md)
+[App Service](./App%20Service)
 
-[Containers](./Containers/README.md)
+[Containers](./Containers)
